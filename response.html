@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Comparison</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    .header-image {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      margin-bottom: 40px; /* Space between header image and content */
+    }
+    .container {
+      display: flex;
+      justify-content: space-around;
+      margin: 0 20px;
+      flex-wrap: wrap; /* Allow wrapping of the columns */
+    }
+    .photo-box {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 45%;
+      margin-top: 20px; /* Move the content down */
+    }
+    .photo-box img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    h3, h2 {
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Container for the side-by-side layout -->
+<div class="container">
+  <!-- Left photo and text box -->
+  <div class="photo-box">
+    <!-- Image for the first photo -->
+    <img src="https://www.worldpressphoto.org/getmedia/fa1e95d4-80d7-456d-8edb-3fc2572daf6e/WPP-2024Contest-NorthAndCentralAmerica-LTP-AlejandroCegarra-01.jpg?maxsidesize=1920&resizemode=force" alt="The Two Walls">
+    <!-- Text for "Things I like about this photo" -->
+    <h3>Things I like about this photo:</h3>
+    <p>This photo is well-centered. The bushes part right where the gap of the train is, which really gives happens to be right where the subject is. I also like the depth of field. The bushes are more interesting than if they had just been out of focus, which brings more attention to the subject.</p>
+    
+    <!-- Text for "Topics/Response Topics" -->
+    <h2>Topics/Response Topics:</h2>
+    <p>This photo shows a person walking along the roof of a freight train in North-Eastern Mexico. It demonstrates the risks people are willing to take in order to migrate to the United States. Freight trains are one of the most dangerous methods of transportation, due to accidents, kidnappings, and muggings. The photo highlights how people face the struggles of climate change, like draughts, which impact their everyday lives and migration journeys.</p>
+  </div>
+
+  <!-- Right photo and text box -->
+  <div class="photo-box">
+    <!-- Image for the second photo -->
+    <img src="https://www.worldpressphoto.org/getmedia/1a941179-6e25-4226-8b82-e178e495ffba/WPP-2024Contest-SouthAmerica-SIN-LaloDeAlmeida.jpg?maxsidesize=1920&resizemode=force" alt="Draught in the Amazon">
+    <!-- Text for "Things I like about this photo" -->
+    <h3>Things I like about this photo:</h3>
+    <p>This photo is shot with a very wide-angle lens, paired with a really elevated shot, which gives perspective to how large the draught is, making the photo a lot more interesting. I also like the depth of field, as the subject is brought into focus, which emphasizes the severity of the scene.</p>
+    
+    <!-- Text for "Topics/Response Topics" -->
+    <h2>Topics/Response Topics:</h2>
+    <p>This photo shows a fisherman walking across the Amazon River, highlighting the severity of the 2023 Amazon drought. It draws attention to how people living near the river are impacted by these environmental changes. The wide-angle lens and elevated perspective in this image emphasize the scale of the drought, illustrating how large areas are affected. It also showcases the willingness of people to risk their lives for survival, just as in the first photo.</p>
+  </div>
+</div>
+
+</body>
+</html>
